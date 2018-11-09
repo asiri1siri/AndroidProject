@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     {
         int id = item.getItemId();
 
-        if (id == R.id.get_news)
+        if (id == R.id.action_search)
         {
             Bundle bundle = new Bundle();
             LoaderManager loaderManager = getSupportLoaderManager();
