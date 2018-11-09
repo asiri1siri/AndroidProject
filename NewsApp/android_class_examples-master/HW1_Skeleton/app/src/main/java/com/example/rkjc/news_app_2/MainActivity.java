@@ -48,8 +48,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         toolBar = (Toolbar) findViewById(R.id.toolbar);
         mProgressBar = (ProgressBar) findViewById(R.id.progressCircle);
 
-        setSupportActionBar(toolBar);
-
         mTextView = (TextView) findViewById(R.id.queryJSON);
     }
 

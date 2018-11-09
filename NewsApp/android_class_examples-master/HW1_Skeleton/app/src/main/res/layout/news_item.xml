@@ -7,12 +7,14 @@
     <TextView
         android:id="@+id/news_title"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="42dp"
+        android:textAllCaps="true"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/news_description"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="100dp" />
 
     <TextView
         android:id="@+id/news_date"
@@ -22,7 +24,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#00FFFF"
+        android:background="#003366"
         android:layout_marginLeft="8dp"
         android:layout_marginRight="8dp" />
 
