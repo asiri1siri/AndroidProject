@@ -67,7 +67,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsItemViewHo
         {
             title.setText("Title: " + mNewsItems.get(listIndex).getTitle());
             description.setText("Description: " + mNewsItems.get(listIndex).getDescription());
-            date.setText("Date" + mNewsItems.get(listIndex).getPublishedAt());
+            date.setText("Date: " + mNewsItems.get(listIndex).getPublishedAt());
             itemView.setOnClickListener(this);
         }
 
